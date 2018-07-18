@@ -1,5 +1,7 @@
 <?php
 
+require_once(get_theme_file_path("/inc/tgm.php"));
+
 if(site_url() == "https://philoshophy-theme-mahmud570.c9users.io/"){
    define( "VERSION", time() );   
 }else{

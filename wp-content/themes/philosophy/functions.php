@@ -58,3 +58,5 @@ function philoshophy_pagination(){
         
         
 }
+
+remove_action("term_description", "wpautop");

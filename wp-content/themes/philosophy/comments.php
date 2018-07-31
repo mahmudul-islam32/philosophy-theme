@@ -26,7 +26,7 @@
 
                     </ol> <!-- end commentlist -->
 
-
+                    <?php paginate_comments_links(); ?>
                     <!-- respond
                     ================================================== -->
                     <div class="respond">

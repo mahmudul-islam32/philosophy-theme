@@ -24,7 +24,7 @@
         <div class="row">
             <div class="col-full">
                 <nav class="pgn">
-                 <?php philoshophy_pagination(); ?>
+                 <?php philosophy_pagination(); ?>
                 </nav>
             </div>
         </div>

@@ -5,7 +5,7 @@
         <div class="row top">
 
             <div class="col-eight md-six tab-full popular">
-                <h3><?php _e("Popular Posts"); ?></h3>
+                <h3><?php _e("Popular Posts", "philoshophy"); ?></h3>
 
                 <div class="block-1-2 block-m-full popular__posts">
                     
@@ -29,8 +29,8 @@
                         </a>
                         <h5><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
                         <section class="popular__meta">
-                                <span class="popular__author"><span><?php _e("By"); ?></span> <a href="<?php echo esc_url(get_author_posts_url(get_the_author_meta("ID"))); ?>"><?php the_author(); ?></a></span>
-                            <span class="popular__date"><span><?php _e("on"); ?></span> <time datetime="2017-12-19"><?php echo get_the_date(); ?></time></span>
+                                <span class="popular__author"><span><?php _e("By", "philoshophy"); ?></span> <a href="<?php echo esc_url(get_author_posts_url(get_the_author_meta("ID"))); ?>"><?php the_author(); ?></a></span>
+                            <span class="popular__date"><span><?php _e("on", "philoshophy"); ?></span> <time datetime="2017-12-19"><?php echo get_the_date(); ?></time></span>
                         </section>
                     </article>
                           
@@ -59,7 +59,9 @@
                 <h3><?php _e("Tags", "philoshophy"); ?></h3>
 
                 <div class="tagcloud">
-                   <?php the_tags(' ', ' ', ' '); ?>
+                <?php
+                the_tags('','','');
+                ?>
                 </div> <!-- end tagcloud -->
             </div> <!-- end tags -->
         </div> <!-- end tags-wrap -->
@@ -76,7 +78,7 @@
                 
                 <div class="col-two md-four mob-full s-footer__sitelinks">
                         
-                    <h4><?php _e("Quick Links"); ?></h4>
+                    <h4><?php _e("Quick Links" ,"philoshophy"); ?></h4>
                     
                     <?php 
                          $philoshophy_menu =  wp_nav_menu(array(
@@ -112,7 +114,7 @@
 
                 <div class="col-two md-four mob-full s-footer__social">
                         
-                    <h4><?php _e("Social"); ?></h4>
+                    <h4><?php _e("Social", "philoshophy"); ?></h4>
 
                 <?php 
                   $philoshophy_menu =  wp_nav_menu(array(

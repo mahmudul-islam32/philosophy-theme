@@ -15,7 +15,7 @@
                         'echo' => false
                         ));
                       $philoshophy_menu = str_replace("menu-item-has-children" ,"menu-item-has-children has-children", $philoshophy_menu); 
-                      echo $philoshophy_menu;
+                      echo wp_kses_post($philoshophy_menu);
                     
                     ?>
 

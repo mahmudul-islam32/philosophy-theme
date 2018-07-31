@@ -55,7 +55,7 @@ get_header();
        </div>
        
        <div class="row">
-       <h3><?php _e("Say Hello."); ?></h3>
+       <h3><?php _e("Say Hello.", "philosophy"); ?></h3>
         <div>
             <?php 
             if(get_field("contact_form_shortcode")){

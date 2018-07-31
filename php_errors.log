@@ -31,3 +31,22 @@
 [29-Jul-2018 08:01:50 UTC] PHP  15. wpgmza_redirect_on_activate() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
 [29-Jul-2018 08:01:50 UTC] PHP  16. wp_redirect() /home/ubuntu/workspace/wp-content/plugins/wp-google-maps/wpGoogleMaps.php:761
 [29-Jul-2018 08:01:50 UTC] PHP  17. header() /home/ubuntu/workspace/wp-includes/pluggable.php:1210
+[30-Jul-2018 10:02:06 UTC] PHP Fatal error:  Class 'Philosophy_social_icons_widget' not found in /home/ubuntu/workspace/wp-includes/class-wp-widget-factory.php on line 106
+[30-Jul-2018 10:02:06 UTC] PHP Stack trace:
+[30-Jul-2018 10:02:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[30-Jul-2018 10:02:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/widgets.php:10
+[30-Jul-2018 10:02:06 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[30-Jul-2018 10:02:06 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[30-Jul-2018 10:02:06 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[30-Jul-2018 10:02:06 UTC] PHP   6. do_action() /home/ubuntu/workspace/wp-settings.php:448
+[30-Jul-2018 10:02:06 UTC] PHP   7. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[30-Jul-2018 10:02:06 UTC] PHP   8. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[30-Jul-2018 10:02:06 UTC] PHP   9. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[30-Jul-2018 10:02:06 UTC] PHP  10. wp_widgets_init() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[30-Jul-2018 10:02:06 UTC] PHP  11. do_action() /home/ubuntu/workspace/wp-includes/widgets.php:1484
+[30-Jul-2018 10:02:06 UTC] PHP  12. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[30-Jul-2018 10:02:06 UTC] PHP  13. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[30-Jul-2018 10:02:06 UTC] PHP  14. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[30-Jul-2018 10:02:06 UTC] PHP  15. Philosophy_social_icons_widget() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[30-Jul-2018 10:02:06 UTC] PHP  16. register_widget() /home/ubuntu/workspace/wp-content/themes/philosophy/widgets/social-icon-widgets.php:177
+[30-Jul-2018 10:02:06 UTC] PHP  17. WP_Widget_Factory->register() /home/ubuntu/workspace/wp-includes/widgets.php:113

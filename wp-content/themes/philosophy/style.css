@@ -10,3 +10,14 @@ Tags: blog, Education
 Text Domain: philosophy
 
 */
+
+.header__logo h1 {
+	margin: 0px;
+	font-weight: bold;
+}
+
+.header__logo a {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
